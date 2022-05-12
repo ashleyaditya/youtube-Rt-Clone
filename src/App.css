@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Akshar", sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  background-color: white;
+  height: 52px;
+  padding: 0 32px;
+  justify-content: space-between;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+.fa-youtube {
+  color: red;
+}
+
+.search {
+  width: 400px;
+  height: 36px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.hover:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
+.hover {
+  padding: 10px 10px 10px 32px;
+}
+
+.sidebar-container {
+  border-bottom: 1px solid rgba(241, 230, 230, 0.959);
+  /* box-shadow: 0 0 10px gray; */
+}
+
+.footer li a {
+  text-decoration: none;
+  list-style: none;
+  color: gray;
+}
+
+.footer {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer li {
+  margin: 0 5px;
+}
+.container {
+  /* padding: 0 32px; */
+}
+
+aside {
+  width: 220px;
+}
+
+.videos-container {
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.suggestions {
+  padding: 10px;
+  background-color: rgba(245, 236, 236, 0.818);
+  border: 1px solid rgba(226, 216, 216, 0.566);
+  border-radius: 20px;
+  height: 10px;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  width: 320px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 30px;
+}
+
+.yt-logo {
+  border-radius: 50%;
+}
